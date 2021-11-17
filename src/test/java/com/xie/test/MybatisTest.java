@@ -35,6 +35,7 @@ public class MybatisTest {
         List<User> userList = sqlSession.selectList("select1");
 //打印结果
         System.out.println(userList);
+        System.out.println("push test.........");
 //释放资源
         sqlSession.close();
 
