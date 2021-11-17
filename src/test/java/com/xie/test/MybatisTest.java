@@ -38,6 +38,7 @@ public class MybatisTest {
         System.out.println("push test.........");
 //释放资源
         sqlSession.close();
+        System.out.println("push test.........then two change it");
 
 
     }
