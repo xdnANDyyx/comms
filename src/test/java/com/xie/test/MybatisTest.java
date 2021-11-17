@@ -37,7 +37,7 @@ public class MybatisTest {
         System.out.println(userList);
 //释放资源
         sqlSession.close();
-        System.out.println("打印GIT信息！！！！！！！！！！");
+
 
     }
 }
